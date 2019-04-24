@@ -21,5 +21,7 @@
   - Retail Software
   - Web applications
   - Mobile applications
-- Why bugs still occur?
+- Software defects
 - Bug fixing importance
+- What is testing and main testing activities
+- Seven testing principles
