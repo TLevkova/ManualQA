@@ -1,4 +1,6 @@
-# Manual QA - Course Overview
+# Manual QA Course
+
+*This repository contains my overall work during the Manual QA course.*
 
 ### Course Scope
 * Introduction to software development and software testing
@@ -8,6 +10,16 @@
 * Reading, examining and writing documentation
 * Introduction to test types
 * Introduction to test levels
+* Test automation and Selenium fundamentals
 
+------
+### Course Overview
 
-This repository contains the overall work during my Manual QA training.
+#### I. Introduction to software development and software testing
+- What is software?
+- Software distribution types
+  - Retail Software
+  - Web applications
+  - Mobile applications
+- Why bugs still occur?
+- Bug fixing importance
