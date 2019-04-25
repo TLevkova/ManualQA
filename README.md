@@ -25,3 +25,44 @@
 - Bug fixing importance
 - What is testing and main testing activities
 - Seven testing principles
+
+
+#### II. Test cases, Test scenarios, Test execution
+- Test process fundamentals
+  - Test planning and control
+  - Test analysis and design
+  - Test implementation and execution
+  - Evaluating exit criteria and reporting
+  - Test closure activities
+- Software requirements specification
+  - Requirements
+  - Use cases
+  - Readability
+  - Review
+  
+#### III. Testing levels, types and techniques
+- Test levels
+  - Component testing
+  - Integration testing
+  - System testing
+  - Acceptance testing
+- Test types
+  - Risk-based testing
+  - Functional testing
+  - Non-functional testing
+  - Structural testing
+  - Testing related to changes: Re-testing and Regression testing
+  - Maintenance testing
+- Testing techniques
+  - Static testing techniques
+  - Dynamic testing techniques: Black-box testing and White-box testing
+  
+#### IV. Bug tracking and version control systems
+- What are incidents and what goes in incident report?
+  - The code or the system itself
+  - Requirements
+  - Design specifications
+  - User and operator guides and tests
+- Bug tracking systems
+  - Jira
+  
