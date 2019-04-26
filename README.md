@@ -58,11 +58,31 @@
   - Dynamic testing techniques: Black-box testing and White-box testing
   
 #### IV. Bug tracking and version control systems
-- What are incidents and what goes in incident report?
+- What are incidents and what goes in an incident report?
   - The code or the system itself
   - Requirements
   - Design specifications
   - User and operator guides and tests
+  - Defect lifecycle
 - Bug tracking systems
   - Jira
+- Version control systems
+  - Versioning models: Centralized and distributed version control
+  - Git
+  - Project hosting sites
+  - GitHub
   
+#### V. Software development and testing lifecycle
+- Phases of the SDLC
+- Popular Methodologies
+  - Waterfall
+  - Scrum
+  - Kanban
+  - Lean Development
+  - Extreme Programming
+- Phases of the STLC
+
+#### VI. Test automation introduction
+- Selenium introduction
+  - Selenium IDE
+  - Selenium WebDriver
