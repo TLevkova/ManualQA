@@ -1,6 +1,6 @@
 # Manual QA Course
 
-*This repository contains my overall work during the Manual QA course.*
+*This repository contains my work during the Manual QA course. **The content is currently being updated**.*
 
 ### Course Scope
 * Introduction to software development and software testing
