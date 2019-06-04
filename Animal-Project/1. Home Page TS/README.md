@@ -1,6 +1,7 @@
 [<sup>Return back to the project</sup>](/Animal-Project/README.md)
 
 ### TEST SUITE: HOME PAGE AND NAVIGATIONAL ELEMENTS
+<br>
 
 | TC1                      | Access the site                                                                                    |
 |:-------------------------|:---------------------------------------------------------------------------------------------------|
