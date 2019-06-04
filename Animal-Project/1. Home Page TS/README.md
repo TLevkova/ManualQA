@@ -1,3 +1,5 @@
+### TEST SUITE: HOME PAGE AND NAVIGATIONAL ELEMENTS
+
 | TC1                      | Access the site                                                                                    |
 |:-------------------------|:---------------------------------------------------------------------------------------------------|
 | Test Suite             | Home page and navigational elements                                                                  |
