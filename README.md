@@ -1,6 +1,8 @@
 # Manual QA Course
 
-*This repository contains my work during the Manual QA course. **The content is currently being updated**.*
+*This repository contains my work during the Manual QA course.* _**The content is currently being updated**_.
+
+Check out the test project made during the course: [Animal Store Testing Project](./Animal-Project/README.md). 
 
 ### Course Scope
 * Introduction to software development and software testing
