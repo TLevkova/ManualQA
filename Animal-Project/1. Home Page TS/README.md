@@ -3,8 +3,8 @@
 ### TEST SUITE: HOME PAGE AND NAVIGATIONAL ELEMENTS
 <br>
 
-| TC1                      | Access the site                                                                                    |
-|:-------------------------|:---------------------------------------------------------------------------------------------------|
+| TC1                    | Access the site                                                                                      |
+|:-----------------------|:-----------------------------------------------------------------------------------------------------|
 | Test Suite             | Home page and navigational elements                                                                  |
 | Priority               | Critical                                                                                             |
 | Description            | Try to load the main page and verify if it's accessible                                              |
