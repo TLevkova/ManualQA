@@ -2,7 +2,7 @@
 
 *This repository contains my work during the Manual QA course.* _**The content is currently being updated**_.
 
-Check out the test project made during the course: [Animal Store Testing Project](./Animal-Project). 
+Check out the test project I made during the course: [Animal Store Testing Project](./Animal-Project). 
 
 ### Course Scope
 * Introduction to software development and software testing
