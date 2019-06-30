@@ -1,7 +1,8 @@
 [<sup>Return back to the project</sup>](/Animal-Project/README.md)
 
 ### TEST SUITE: REGISTRATION AND LOGIN
-<br>
+
+### Test Set: Registration
 
 | TC59                   | Register: All the required fields are marked with "\*"                                               |
 |:-----------------------|:-----------------------------------------------------------------------------------------------------|
@@ -356,3 +357,5 @@
 | 10. Do not click on "Email" checkbox | The checkbox is not selected                                                           |
 | 11. Do not click on "Post" checkbox | The checkbox is not selected                                                            |
 | 12. Click on "Create Account" button | The user is not allowed to proceed and error message appears                           |
+
+### Test Set: Login
