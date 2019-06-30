@@ -2,7 +2,7 @@
 
 ### TEST SUITE: HOME PAGE AND NAVIGATIONAL ELEMENTS
 
-## Test Set: Website Access
+### Test Set: Website Access
 
 | TC1                    | Access "Animal" website                                                                              |
 |:-----------------------|:-----------------------------------------------------------------------------------------------------|
@@ -12,7 +12,7 @@
 | Action                 | Navigate to [https://www.animal.co.uk](https://www.animal.co.uk)                                     |
 | Expected result        | Website is successfully loaded and "Home" page is displayed                                          |
 
-## Test Set: Header
+### Test Set: Header
 
 | TC2                    | Header: "Animal" logo image leads to "Home" page                                                     |
 |:-----------------------|:-----------------------------------------------------------------------------------------------------|
@@ -64,7 +64,7 @@
 | Action                 | Click on "Shopping cart" icon                                                                        |
 | Expected result        | The icon leads to "Shopping cart" page                                                               |
 
-## Test Set: Navigation Bar
+### Test Set: Navigation Bar
 
 | TC8                    | Navigation bar: "Men" button leads to "Men" category page                                            |
 |:-----------------------|:-----------------------------------------------------------------------------------------------------|
@@ -115,7 +115,7 @@
 | Action                 | Click on "Blog" button                                                                               |
 | Expected result        | The button leads to "Blog" category page                                                             |
 
-## Test Set: Main Body
+### Test Set: Main Body
 
 | TC14                   |   "Men's Summer Collection" banner leads to the corresponding page                                   |
 |:-----------------------|:-----------------------------------------------------------------------------------------------------|
@@ -326,7 +326,7 @@
 | 1. Scroll down the page until reach "Trustpilot" slider section | "Trustpilot" review section is displayed                    |
 | 2. Click on random review from the review list | The review redirects to the same review page at [https://uk.trustpilot.com/review/www.animal.co.uk](https://uk.trustpilot.com/review/www.animal.co.uk)|
 
-## Test Set: Footer
+### Test Set: Footer
 
 | TC36                   | Footer: "Contact Us" icon leads to the corresponding page                                            |
 |:-----------------------|:-----------------------------------------------------------------------------------------------------|
