@@ -1,17 +1,21 @@
 [<sup>Return back to the project</sup>](/Animal-Project/README.md)
 
 ### TEST SUITE: HOME PAGE AND NAVIGATIONAL ELEMENTS
-<br>
 
-| TC1                    | Access the site                                                                                      |
+## Test Set: Website Access
+
+| TC1                    | Access "Animal" website                                                                              |
 |:-----------------------|:-----------------------------------------------------------------------------------------------------|
 | Test Suite             | Home page and navigational elements                                                                  |
 | Priority               | Critical                                                                                             |
 | Description            | Try to load the main page and verify if it's accessible                                              |
 | Action                 | Navigate to [https://www.animal.co.uk](https://www.animal.co.uk)                                     |
 | Expected result        | Website is successfully loaded and "Home" page is displayed                                          |
-|                        |                                                                                                      |
-| **TC2**                | **Header: "Animal" logo image leads to "Home" page**                                                 |
+
+## Test Set: Header
+
+| TC2                    | Header: "Animal" logo image leads to "Home" page                                                     |
+|:-----------------------|:-----------------------------------------------------------------------------------------------------|
 | Test Suite             | Home page and navigational elements                                                                  |
 | Priority               | Medium                                                                                               |
 | Description            |"Animal" logo image in the header should lead to "Home" page when is clicked                          |
@@ -59,8 +63,11 @@
 | Precondition           | [https://www.animal.co.uk](https://www.animal.co.uk) is opened on "Home" page                        |
 | Action                 | Click on "Shopping cart" icon                                                                        |
 | Expected result        | The icon leads to "Shopping cart" page                                                               |
-|                        |                                                                                                      |
-| **TC8**                | **Navigation bar: "Men" button leads to "Men" category page**                                        |
+
+## Test Set: Navigation Bar
+
+| TC8                    | Navigation bar: "Men" button leads to "Men" category page                                            |
+|:-----------------------|:-----------------------------------------------------------------------------------------------------|
 | Test Suite             | Home page and navigational elements                                                                  |
 | Priority               | High                                                                                                 |
 | Description            | Clicking on "Men" button should lead to "Men" category page                                          |
@@ -107,8 +114,11 @@
 | Precondition           | [https://www.animal.co.uk](https://www.animal.co.uk) is opened on "Home" page                        |
 | Action                 | Click on "Blog" button                                                                               |
 | Expected result        | The button leads to "Blog" category page                                                             |
-|                        |                                                                                                      |
-| **TC14**               | **"Men's Summer Collection" banner leads to the corresponding page**                                 |
+
+## Test Set: Main Body
+
+| TC14                   |   "Men's Summer Collection" banner leads to the corresponding page                                   |
+|:-----------------------|:-----------------------------------------------------------------------------------------------------|
 | Test Suite             | Home page and navigational elements                                                                  |
 | Priority               | Medium                                                                                               |
 | Description            | Clicking on "View Collection" button on "Men's Summer Collection" banner should lead to "Men's Summer Collection" page|
@@ -315,8 +325,11 @@
 | _**Test Steps**_       | _**Expected result**_                                                                                |
 | 1. Scroll down the page until reach "Trustpilot" slider section | "Trustpilot" review section is displayed                    |
 | 2. Click on random review from the review list | The review redirects to the same review page at [https://uk.trustpilot.com/review/www.animal.co.uk](https://uk.trustpilot.com/review/www.animal.co.uk)|
-|                        |                                                                                                      |
-| **TC36**               | **Footer: "Contact Us" icon leads to the corresponding page**                                        |
+
+## Test Set: Footer
+
+| TC36                   | Footer: "Contact Us" icon leads to the corresponding page                                            |
+|:-----------------------|:-----------------------------------------------------------------------------------------------------|
 | Test Suite             | Home page and navigational elements                                                                  |
 | Priority               | Medium                                                                                               |
 | Description            | Clicking on "Contact Us" icon should lead to "Contact Us" page                                       |
@@ -501,4 +514,3 @@
 | Precondition           | 1. Open [https://www.animal.co.uk](https://www.animal.co.uk)<br>2. Go to the bottom of the page      |
 | Action                 | Check if there is copyright notice in the footer                                                     |
 | Expected result        | The copyright notice is available                                                                    |
-|                        |                                                                                                      |
