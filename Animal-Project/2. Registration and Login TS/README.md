@@ -2,11 +2,9 @@
 
 ### TEST SUITE: REGISTRATION AND LOGIN
 
-### Test Set: Registration
-
-| TC59                   | Register: All the required fields are marked with "\*"                                               |
+| Test Set               | Registration                                                                                         |
 |:-----------------------|:-----------------------------------------------------------------------------------------------------|
-| Test Suite             | Registration and login                                                                               |
+| **TC59**               | **Register: All the required fields are marked with "\*"**                                           |
 | Priority               | Medium                                                                                               |
 | Description            | Verify that all the required fields are marked with asterisk "\*" and there is a legend indicating what the asterisk means - "Required fields"|
 | Precondition           | 1. Open [https://www.animal.co.uk](https://www.animal.co.uk)<br>2. Click on "Register" link at the top-right corner of the page|
@@ -21,7 +19,6 @@
 | 8. Check if there is a "Required Fields" notice under "Confirm Password" field | "Required Fields" notice is available and it's placed under "Confirm Password" field|
 |                        |                                                                                                      |
 | **TC60**               | **Register with valid credentials filling all the fields**                                           |
-| Test Suite             | Registration and login                                                                               |
 | Priority               | High                                                                                                 |
 | Description            | Verify that a user is able to register with valid credentials                                        |
 | Precondition           | 1. Open [https://www.animal.co.uk](https://www.animal.co.uk)<br>2. Click on "Register" link at the top-right corner of the page|
@@ -42,7 +39,6 @@
 | Postcondition          | Do not delete the user data from the database                                                        |
 |                        |                                                                                                      |
 | **TC61**               | **Register: Try to register with identical credentials**                                             |
-| Test Suite             | Registration and login                                                                               |
 | Priority               | High                                                                                                 |
 | Description            | Verify that a user is unable to register with credentials that already exist                         |
 | Precondition           | 1. Open [https://www.animal.co.uk](https://www.animal.co.uk)<br>2. Click on "Register" link at the top-right corner of the page|
@@ -63,7 +59,6 @@
 | Postcondition          | Delete the user data from the database                                                               |
 |                        |                                                                                                      |
 | **TC62**               | **Register with valid credentials filling the required fields only**                                 |
-| Test Suite             | Registration and login                                                                               |
 | Priority               | High                                                                                                 |
 | Description            | Verify that a user is able to register with valid credentials filling the required fields only (without optional fields)|
 | Precondition           | 1. Open [https://www.animal.co.uk](https://www.animal.co.uk)<br>2. Click on "Register" link at the top-right corner of the page|
@@ -84,7 +79,6 @@
 | Postcondition          | Delete the user data from the database                                                               |
 |                        |                                                                                                      |
 | **TC63**               | **Register: "Email" field - try to register with invalid email**                                     |
-| Test Suite             | Registration and login                                                                               |
 | Priority               | High                                                                                                 |
 | Description            | Verify that a user is unable to register with invalid email                                          |
 | Precondition           | 1. Open [https://www.animal.co.uk](https://www.animal.co.uk)<br>2. Click on "Register" link at the top-right corner of the page|
@@ -106,7 +100,6 @@
 | Postcondition          | Repeat the test with the particular iteration's test data until you test all the possibilities       |
 |                        |                                                                                                      |
 | **TC64**               | **Register: "Email" field - try to register leaving "Email" field empty**                            |
-| Test Suite             | Registration and login                                                                               |
 | Priority               | High                                                                                                 |
 | Description            | Verify that a user is unable to register leaving empty "Email" field                                 |
 | Precondition           | 1. Open [https://www.animal.co.uk](https://www.animal.co.uk)<br>2. Click on "Register" link at the top-right corner of the page|
@@ -126,7 +119,6 @@
 | 12. Click on "Create Account" button | The user is not allowed to proceed and error message appears                           |
 |                        |                                                                                                      |
 | **TC65**               | **Register: "Email" field - try to register leaving "Confirm Email" field empty**                    |
-| Test Suite             | Registration and login                                                                               |
 | Priority               | High                                                                                                 |
 | Description            | Verify that a user is unable to register leaving "Confirm Email" field empty                         |
 | Precondition           | 1. Open [https://www.animal.co.uk](https://www.animal.co.uk)<br>2. Click on "Register" link at the top-right corner of the page|
@@ -146,7 +138,6 @@
 | 12. Click on "Create Account" button | The user is not allowed to proceed and error message appears                           |
 |                        |                                                                                                      |
 | **TC66**               | **Register: Try to register with mismatching emails**                                                |
-| Test Suite             | Registration and login                                                                               |
 | Priority               | High                                                                                                 |
 | Description            | Verify that a user is unable to register entering mismatching emails                                 |
 | Precondition           | 1. Open [https://www.animal.co.uk](https://www.animal.co.uk)<br>2. Click on "Register" link at the top-right corner of the page|
@@ -166,7 +157,6 @@
 | 12. Click on "Create Account" button | The user is not allowed to proceed and error message appears                           |
 |                        |                                                                                                      |
 | **TC67**               | **Register: "First Name" field - try to register with invalid data**                                 |
-| Test Suite             | Registration and login                                                                               |
 | Priority               | High                                                                                                 |
 | Description            | Verify that a user is unable to register with invalid first name                                     |
 | Precondition           | 1. Open [https://www.animal.co.uk](https://www.animal.co.uk)<br>2. Click on "Register" link at the top-right corner of the page|
@@ -188,7 +178,6 @@
 | Postcondition          | Repeat the test with the particular iteration's test data until you test all the possibilities       |
 |                        |                                                                                                      |
 | **TC68**               | **Register: "First Name" field - try to register leaving "First Name" field empty**                  |
-| Test Suite             | Registration and login                                                                               |
 | Priority               | High                                                                                                 |
 | Description            | Verify that a user is unable to register leaving "First Name" field empty                            |
 | Precondition           | 1. Open [https://www.animal.co.uk](https://www.animal.co.uk)<br>2. Click on "Register" link at the top-right corner of the page|
@@ -208,7 +197,6 @@
 | 12. Click on "Create Account" button | The user is not allowed to proceed and error message appears                           |
 |                        |                                                                                                      |
 | **TC69**               | **Register: "Last Name" field - try to register with invalid data**                                  |
-| Test Suite             | Registration and login                                                                               |
 | Priority               | High                                                                                                 |
 | Description            | Verify that a user is unable to register with invalid last name                                      |
 | Precondition           | 1. Open [https://www.animal.co.uk](https://www.animal.co.uk)<br>2. Click on "Register" link at the top-right corner of the page|
@@ -230,7 +218,6 @@
 | Postcondition          | Repeat the test with the particular iteration's test data until you test all the possibilities       |
 |                        |                                                                                                      |
 | **TC70**               | **Register: "Last Name" field - try to register leaving "Last Name" field empty**                    |
-| Test Suite             | Registration and login                                                                               |
 | Priority               | High                                                                                                 |
 | Description            | Verify that a user is unable to register leaving "Last Name" field empty                             |
 | Precondition           | 1. Open [https://www.animal.co.uk](https://www.animal.co.uk)<br>2. Click on "Register" link at the top-right corner of the page|
@@ -250,7 +237,6 @@
 | 12. Click on "Create Account" button | The user is not allowed to proceed and error message appears                           |
 |                        |                                                                                                      |
 | **TC71**               | **Register: "Contact Phone No." field - try to register with invalid data**                          |
-| Test Suite             | Registration and login                                                                               |
 | Priority               | Medium                                                                                               |
 | Description            | Verify that a user is unable to register with invalid phone number                                   |
 | Precondition           | 1. Open [https://www.animal.co.uk](https://www.animal.co.uk)<br>2. Click on "Register" link at the top-right corner of the page|
@@ -272,7 +258,6 @@
 | Postcondition          | Repeat the test with the particular iteration's test data until you test all the possibilities       |
 |                        |                                                                                                      |
 | **TC72**               | **Register: "Gender" radio buttons - try to make multiple selection**                                |
-| Test Suite             | Registration and login                                                                               |
 | Priority               | Medium                                                                                               |
 | Description            | Verify that a user is unable to make multiple selection clicking on "Gender" radio buttons           |
 | Precondition           | 1. Open [https://www.animal.co.uk](https://www.animal.co.uk)<br>2. Click on "Register" link at the top-right corner of the page|
@@ -280,7 +265,6 @@
 | Expected result        | Only the last selection is made and multiple selection is not allowed                                |
 |                        |                                                                                                      |
 | **TC73**               | **Register: "Date of Birth" drop-down menus - try to register with invalid data**                    |
-| Test Suite             | Registration and login                                                                               |
 | Priority               | High                                                                                                 |
 | Description            | Verify that a user is unable to register with invalid date of birth                                  |
 | Precondition           | 1. Open [https://www.animal.co.uk](https://www.animal.co.uk)<br>2. Click on "Register" link at the top-right corner of the page|
@@ -302,7 +286,6 @@
 | Postcondition | Repeat the test with the particular iteration's test data until you test all the possibilities                |
 |                        |                                                                                                      |
 | **TC74**               | **Register: "Password" field - try to register with invalid data**                                   |
-| Test Suite             | Registration and login                                                                               |
 | Priority               | High                                                                                                 |
 | Description            | Verify that a user is unable to register with invalid password                                       |
 | Precondition           | 1. Open [https://www.animal.co.uk](https://www.animal.co.uk)<br>2. Click on "Register" link at the top-right corner of the page|
@@ -323,7 +306,6 @@
 | 12. Click on "Create Account" button | The user is not allowed to proceed and error message appears                           |
 |                        |                                                                                                      |
 | **TC75**               | **Register: "Password" field - password is in encrypted format when entered**                        |
-| Test Suite             | Registration and login                                                                               |
 | Priority               | High                                                                                                 |
 | Description            | Verify that the password is in encrypted format when is entered by the user                          |
 | Precondition           | 1. Open [https://www.animal.co.uk](https://www.animal.co.uk)<br>2. Click on "Register" link at the top-right corner of the page|
@@ -331,7 +313,6 @@
 | Expected result        | The password is displayed in encrypted fromat                                                        |
 |                        |                                                                                                      |
 | **TC76**               | **Register: "Confirm Password" field - password is in encrypted format when entered**                |
-| Test Suite             | Registration and login                                                                               |
 | Priority               | High                                                                                                 |
 | Description            | Verify that the password is in encrypted format when is entered by the user                          |
 | Precondition           | 1. Open [https://www.animal.co.uk](https://www.animal.co.uk)<br>2. Click on "Register" link at the top-right corner of the page|
@@ -339,7 +320,6 @@
 | Expected result        | The password is displayed in encrypted fromat                                                        |
 |                        |                                                                                                      |
 | **TC77**               | **Register: Try to register with mismatching passwords**                                             |
-| Test Suite             | Registration and login                                                                               |
 | Priority               | High                                                                                                 |
 | Description            | Verify that a user is unable to register entering mismatching passwords                              |
 | Precondition           | 1. Open [https://www.animal.co.uk](https://www.animal.co.uk)<br>2. Click on "Register" link at the top-right corner of the page|
@@ -357,5 +337,3 @@
 | 10. Do not click on "Email" checkbox | The checkbox is not selected                                                           |
 | 11. Do not click on "Post" checkbox | The checkbox is not selected                                                            |
 | 12. Click on "Create Account" button | The user is not allowed to proceed and error message appears                           |
-
-### Test Set: Login
