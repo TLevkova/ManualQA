@@ -12,7 +12,7 @@
 |                        |                                                                                                      |
 | **Test Set**           | **Header**                                                                                           |
 | **TC2**                | **Header: "Animal" logo image leads to "Home" page**                                                 |
-| Priority               | Medium                                                                                               |
+| Priority               | High                                                                                                 |
 | Description            |"Animal" logo image in the header should lead to "Home" page when is clicked                          |
 | Precondition           | [https://www.animal.co.uk](https://www.animal.co.uk) is opened and the user must be on a different website page than "Home" page|
 | Action                 | Click on the logo image in the header                                                                |
@@ -27,7 +27,7 @@
 | 3. Go to another random page on this website and repeat step 2 | Verify that all of the above-mentioned sentences are rotating|
 |                        |                                                                                                      |
 | **TC4**                | **Header: "Store Finder" link leads to the corresponding page**                                      |
-| Priority               | Medium                                                                                               |
+| Priority               | High                                                                                                 |
 | Description            | Clicking on "Store Finder" link should lead to "Store Finder" page                                   |
 | Precondition           | [https://www.animal.co.uk](https://www.animal.co.uk) is opened on "Home" page                        |
 | Action                 | Click on "Store Finder" link                                                                         |
